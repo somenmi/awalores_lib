@@ -1,7 +1,7 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    background-color: #242424; /* Фон как в VK */
-    color: #000;
+    background-color: 242424; /* Фон как в VK */
+    color: black;
     margin: 0;
     padding: 0;
 }
@@ -30,9 +30,9 @@ body {
     text-align: cenrgba(92,148,239,0.7);
     margin-top: 30px;
     padding: 20px;
-    background-color: #fff; /* Белый фон */
+    background-color: white; /* Белый фон */
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Тень как в VK */
     font-size: 14px;
-    color: #65676b; /* Серый текст */
+    color: 65676b; /* Серый текст */
 }
