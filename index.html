@@ -1,6 +1,9 @@
-<html lang="ru"><head>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-Frame-Options" content="allow">
+    <meta http-equiv="Content-Security-Policy" content="frame-ancestors 'self' vk.com *.vk.com;">
     <meta property="og:title" content="AWALORES Music">
     <meta property="og:description" content="Официальная страница с музыкальными релизами AWALORES">
     <meta property="og:image" content="https://somemni.github.io/awalores_lib/icon128.png">
@@ -15,6 +18,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="icon16.png">
     <link rel="icon" type="image/png" sizes="48x48" href="icon48.png">
     <link rel="icon" type="image/png" sizes="128x128" href="icon128.png">
+    
 </head>
     
 <body>
@@ -164,18 +168,8 @@
             </div>
         </center>
         </section>
-         <script>
-// Получаем текущий год
-const currentYear = new Date().getFullYear();
-  
-// Находим элемент с классом "my-footer-year"
-const footerYear = document.querySelector('.my-footer-year');
-
-// Заменяем текст внутри элемента
-footerYear.textContent = `© ${currentYear} AWALORES`;
-</script>
         <footer>
-           <p style="text-align: center;"><span class="my-footer-year">© AWALORES</span></p>
+           <p style="text-align: center;">© AWALORES</p>
         </footer>
     </div>
 
