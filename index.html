@@ -24,6 +24,10 @@
     onlyWidgets: true // Если не требуется авторизация
   });
         </script>
+                            <script>
+                              // Отправляет событие инициализации нативному клиенту
+                              vkBridge.send('VKWebAppInit');
+                            </script>
 </head>
     
 <body>
@@ -178,5 +182,7 @@
         </footer>
     </div>
 
+    <div bridge.send('VKWebAppInit')
+    
 </body>
 </html>
